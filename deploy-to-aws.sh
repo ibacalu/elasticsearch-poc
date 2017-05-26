@@ -8,7 +8,7 @@
 # export AWS_VPC_ID=''
 export AWS_ZONE='a'
 export AWS_AMI_ID='ami-6f587e1c'
-ENV_NAME='ibacalu-test2'
+export ENV_NAME='ibacalu-test'
 
 create_vm() {
   docker-machine -D create \
